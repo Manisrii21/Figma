@@ -67,10 +67,7 @@ Figma
   <div style="width: 320px; height: 115px; left: 161px; top: 356px; position: absolute; color: #3524F2; font-size: 40px; font-family: Inter; font-weight: 400; word-wrap: break-word">         ART <br/>    EXHIBITION</div>
 </div>
 ## OUTPUT:
-![W1](https://github.com/user-attachments/assets/f05098dd-944f-4e9a-8e55-62ebc6d8850e)
-![W2](https://github.com/user-attachments/assets/09a8c501-5523-4030-aa29-0c8c3cd13d6e)
-![W3](https://github.com/user-attachments/assets/d0e74a87-1858-4146-8842-95df911679c4)
-![W4](https://github.com/user-attachments/assets/813d332b-f25c-411c-8b19-e70f7d2cc8a1)
+![W1](https://github.com/user-attachments/assets/3175cb1c-6712-4666-8a9f-11645c9ffb51)
 
 ## RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.
