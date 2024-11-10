@@ -1,6 +1,6 @@
 # Ex09 Event Registration Web Application
 ## Date:
-10-05-2024
+10-11-2024
 
 ## AIM:
 To design, develop and deploy a web application for event registration.
@@ -36,337 +36,41 @@ Figma
 ## CODE:
 
 /* Home page */
-
-box-sizing: border-box;
-position: relative;
-width: 360px;
-height: 640px;
-background: #F3A8D1;
-border: 1px solid #000000;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
+<div style="width: 700px; height: 840px; position: relative; background: white">
+  <img style="width: 811px; height: 929px; left: -111px; top: -89px; position: absolute" src="https://via.placeholder.com/811x929" />
+  <div style="width: 332px; height: 160px; left: 148px; top: 260px; position: absolute; background: #8B6767"></div>
+  <div style="width: 160px; height: 28px; left: 441px; top: 22px; position: absolute; background: #997171"></div>
+  <div style="width: 151px; height: 46px; left: 450px; top: 22px; position: absolute; color: white; font-size: 20px; font-family: Inter; font-weight: 400; word-wrap: break-word">REVERSA 2024</div>
+  <div style="width: 278px; height: 120px; left: 172px; top: 276px; position: absolute; color: white; font-size: 40px; font-family: Inter; font-weight: 400; word-wrap: break-word">         ART<br/>   EXHIBITION</div>
+</div>
 /* Login page */
-
-position: relative;
-width: 367px;
-height: 640px;
-background: #F7D662;
-
-/* SEC Page */
-
-position: relative;
-width: 360px;
-height: 640px;
-background: #8EE1D7;
-
-/* LOGIN */
-
-position: absolute;
-width: 188px;
-height: 29px;
-left: 84px;
-top: 449px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-color: #FFFFFF;
-
-/* Rectangle 1 */
-
-position: absolute;
-width: 271px;
-height: 50px;
-left: 43px;
-top: 434px;
-background: #86AD67;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-/* logo 1 */
-
-position: absolute;
-width: 115px;
-height: 116px;
-left: 120px;
-top: 100px;
-background: url(rename.jpg);
-
-/* Line 1 */
-
-position: absolute;
-width: 360px;
-height: 0px;
-left: 0px;
-top: 89px;
-border: 4px solid #FD0404;
-transform: rotate(0.16deg);
-
-/* NIRF Ranked Autonomous Institution */
-
-position: absolute;
-width: 324px;
-height: 38px;
-left: 16px;
-top: 310px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-color: #000000;
-
-/* Affiliated to Anna University */
-
-position: absolute;
-width: 345px;
-height: 56px;
-left: 1px;
-top: 241px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-color: #000000;
-
-/* Saveetha Engineering College */
-
-position: absolute;
-width: 324px;
-height: 38px;
-left: 9px;
-top: 31px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-color: #000000;
-
-/* Submit */
-
-position: absolute;
-width: 145px;
-height: 22px;
-left: 58px;
-top: 516px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: right;
-color: #FFFFFF;
-
-/* Line 2 */
-
-position: absolute;
-width: 360px;
-height: 0px;
-left: 0px;
-top: 89px;
-border: 4px solid #FD0404;
-transform: rotate(0.16deg);
-
-/* Frame 1 */
-
-position: absolute;
-width: 271px;
-height: 50px;
-left: 44px;
-top: 502px;
-
-/* password */
-
-position: absolute;
-width: 96px;
-height: 17px;
-left: 47px;
-top: 387px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: right;
-color: #000000;
-
-/* username */
-
-position: absolute;
-width: 96px;
-height: 17px;
-left: 50px;
-top: 272px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: right;
-color: #000000;
-
-/* Rectangle 4 */
-
-position: absolute;
-width: 259px;
-height: 38px;
-left: 50px;
-top: 424px;
-background: #D9D9D9;
-
-/* Rectangle 2 */
-
-position: absolute;
-width: 259px;
-height: 38px;
-left: 50px;
-top: 305px;
-background: #D9D9D9;
-
-/* logo 2 */
-
-position: absolute;
-width: 115px;
-height: 116px;
-left: 115px;
-top: 133px;
-background: url(rename.jpg);
-
-/* Saveetha Engineering College */
-
-position: absolute;
-width: 324px;
-height: 38px;
-left: 11px;
-top: 39px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-color: #000000;
-
-/* logo 3 */
-
-
-position: absolute;
-width: 115px;
-height: 116px;
-left: 112px;
-top: 131px;
-background: url(rename.jpg);
-
-/* Line 2 */
-
-position: absolute;
-width: 360px;
-height: 0px;
-left: 0px;
-top: 90px;
-border: 4px solid #FD0404;
-transform: rotate(0.16deg);
-
-/* AI-DS */
-
-position: absolute;
-width: 324px;
-height: 24px;
-left: 18px;
-top: 479px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-color: #000000;
-
-/* AI-ML */
-
-position: absolute;
-width: 324px;
-height: 24px;
-left: 18px;
-top: 543px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-color: #000000;
-
-/* IOT */
-
-position: absolute;
-width: 324px;
-height: 24px;
-left: 18px;
-top: 415px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-color: #000000;
-
-/* Cyber Security */
-
-position: absolute;
-width: 324px;
-height: 24px;
-left: 18px;
-top: 351px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-color: #000000;
-
-/* Departments */
-
-position: absolute;
-width: 324px;
-height: 24px;
-left: 18px;
-top: 287px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-color: #000000;
-
-/* Saveetha Engineering College */
-
-position: absolute;
-width: 324px;
-height: 24px;
-left: 18px;
-top: 36px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-color: #000000;
-
+<img style="width: 700px; height: 849px" src="https://via.placeholder.com/700x849" />
+/* REGISTER PAGE */
+<div style="width: 700px; height: 840px; position: relative; background: white">
+  <img style="width: 700px; height: 840px; left: 0px; top: 0px; position: absolute; border-radius: 11px" src="https://via.placeholder.com/700x840" />
+  <div style="width: 243px; height: 77px; left: 256px; top: 83px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 243px; height: 77px; left: 256px; top: 218px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 243px; height: 77px; left: 256px; top: 381px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 243px; height: 77px; left: 256px; top: 548px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 243px; height: 77px; left: 256px; top: 711px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 136px; height: 39px; left: 83px; top: 102px; position: absolute; color: black; font-size: 30px; font-family: Inter; font-weight: 400; word-wrap: break-word">  NAME :</div>
+  <div style="width: 130px; height: 40px; left: 109px; top: 236px; position: absolute; color: black; font-size: 30px; font-family: Inter; font-weight: 400; word-wrap: break-word">REG NO :</div>
+  <div style="width: 106px; height: 40px; left: 109px; top: 400px; position: absolute; color: black; font-size: 30px; font-family: Inter; font-weight: 400; word-wrap: break-word">DEPT :</div>
+  <div style="width: 120px; height: 30px; left: 109px; top: 564px; position: absolute; color: black; font-size: 30px; font-family: Inter; font-weight: 400; word-wrap: break-word">EMAIL :</div>
+  <div style="width: 146px; height: 42px; left: 83px; top: 729px; position: absolute; color: black; font-size: 30px; font-family: Inter; font-weight: 400; word-wrap: break-word">PHN NO :</div>
+</div>
+/* CONTACT */
+<div style="width: 700px; height: 840px; position: relative; background: white">
+  <img style="width: 1192px; height: 925px; left: -276px; top: -85px; position: absolute" src="https://via.placeholder.com/1192x925" />
+  <div style="width: 488px; height: 239px; left: 48px; top: 96px; position: absolute; color: black; font-size: 25px; font-family: Inter; font-weight: 400; word-wrap: break-word">JOIN US FOR AN <br/><br/>ART - FILLED JOURNEY<br/><br/>THAT WILL YOU LEAVE YOU INSPIRED</div>
+  <div style="width: 296px; height: 207px; left: 62px; top: 548px; position: absolute; color: black; font-size: 25px; font-family: Inter; font-weight: 400; word-wrap: break-word">CONTACT US :<br/><br/>reversa24@gmail.com<br/><br/>PHN NO : 7536984120</div>
+  <div style="width: 320px; height: 115px; left: 161px; top: 356px; position: absolute; color: #3524F2; font-size: 40px; font-family: Inter; font-weight: 400; word-wrap: break-word">         ART <br/>    EXHIBITION</div>
+</div>
 ## OUTPUT:
-![alt text](1.png)
-![alt text](2.png)
-![alt text](3.png)
+![W1](https://github.com/user-attachments/assets/f05098dd-944f-4e9a-8e55-62ebc6d8850e)
+![W2](https://github.com/user-attachments/assets/09a8c501-5523-4030-aa29-0c8c3cd13d6e)
+![W3](https://github.com/user-attachments/assets/d0e74a87-1858-4146-8842-95df911679c4)
+![W4](https://github.com/user-attachments/assets/813d332b-f25c-411c-8b19-e70f7d2cc8a1)
 
 ## RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.
