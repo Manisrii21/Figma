@@ -35,7 +35,7 @@ Figma
 
 ## CODE:
 '''
-/* Home page */
+Home page 
 <div style="width: 700px; height: 840px; position: relative; background: white">
   <img style="width: 811px; height: 929px; left: -111px; top: -89px; position: absolute" src="https://via.placeholder.com/811x929" />
   <div style="width: 332px; height: 160px; left: 148px; top: 260px; position: absolute; background: #8B6767"></div>
@@ -43,9 +43,9 @@ Figma
   <div style="width: 151px; height: 46px; left: 450px; top: 22px; position: absolute; color: white; font-size: 20px; font-family: Inter; font-weight: 400; word-wrap: break-word">REVERSA 2024</div>
   <div style="width: 278px; height: 120px; left: 172px; top: 276px; position: absolute; color: white; font-size: 40px; font-family: Inter; font-weight: 400; word-wrap: break-word">         ART<br/>   EXHIBITION</div>
 </div>
-/* Login page */
+ Login page 
 <img style="width: 700px; height: 849px" src="https://via.placeholder.com/700x849" />
-/* REGISTER PAGE */
+ REGISTER PAGE 
 <div style="width: 700px; height: 840px; position: relative; background: white">
   <img style="width: 700px; height: 840px; left: 0px; top: 0px; position: absolute; border-radius: 11px" src="https://via.placeholder.com/700x840" />
   <div style="width: 243px; height: 77px; left: 256px; top: 83px; position: absolute; background: #D9D9D9"></div>
@@ -59,7 +59,7 @@ Figma
   <div style="width: 120px; height: 30px; left: 109px; top: 564px; position: absolute; color: black; font-size: 30px; font-family: Inter; font-weight: 400; word-wrap: break-word">EMAIL :</div>
   <div style="width: 146px; height: 42px; left: 83px; top: 729px; position: absolute; color: black; font-size: 30px; font-family: Inter; font-weight: 400; word-wrap: break-word">PHN NO :</div>
 </div>
-/* CONTACT */
+ CONTACT 
 <div style="width: 700px; height: 840px; position: relative; background: white">
   <img style="width: 1192px; height: 925px; left: -276px; top: -85px; position: absolute" src="https://via.placeholder.com/1192x925" />
   <div style="width: 488px; height: 239px; left: 48px; top: 96px; position: absolute; color: black; font-size: 25px; font-family: Inter; font-weight: 400; word-wrap: break-word">JOIN US FOR AN <br/><br/>ART - FILLED JOURNEY<br/><br/>THAT WILL YOU LEAVE YOU INSPIRED</div>
