@@ -34,7 +34,7 @@ Publish the website in the given URL.
 Figma
 
 ## CODE:
-
+'''
 /* Home page */
 <div style="width: 700px; height: 840px; position: relative; background: white">
   <img style="width: 811px; height: 929px; left: -111px; top: -89px; position: absolute" src="https://via.placeholder.com/811x929" />
@@ -66,6 +66,7 @@ Figma
   <div style="width: 296px; height: 207px; left: 62px; top: 548px; position: absolute; color: black; font-size: 25px; font-family: Inter; font-weight: 400; word-wrap: break-word">CONTACT US :<br/><br/>reversa24@gmail.com<br/><br/>PHN NO : 7536984120</div>
   <div style="width: 320px; height: 115px; left: 161px; top: 356px; position: absolute; color: #3524F2; font-size: 40px; font-family: Inter; font-weight: 400; word-wrap: break-word">         ART <br/>    EXHIBITION</div>
 </div>
+'''
 ## OUTPUT:
 ![W1](https://github.com/user-attachments/assets/3175cb1c-6712-4666-8a9f-11645c9ffb51)
 
