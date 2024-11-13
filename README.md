@@ -43,7 +43,9 @@ Figma
   <div style="width: 278px; height: 120px; left: 172px; top: 276px; position: absolute; color: white; font-size: 40px; font-family: Inter; font-weight: 400; word-wrap: break-word">         ART<br/>   EXHIBITION</div>
   <div style="width: 100px; height: 100px; left: 215px; top: 401px; position: absolute"></div>
 </div>
-
+```
+```
+<img style="width: 700px; height: 849px" src="https://via.placeholder.com/700x849" />
 ```
 ## OUTPUT:
 ![W1](https://github.com/user-attachments/assets/3175cb1c-6712-4666-8a9f-11645c9ffb51)
